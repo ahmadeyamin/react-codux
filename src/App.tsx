@@ -1,13 +1,13 @@
 
 import styles from './App.module.scss';
+import { Navigation } from './components/navigation/navigation';
+import { HeroSection } from './components/home/hero-section/hero-section';
 
 function App() {
     return (
-        <div className={styles.App}>
-            <p>
-                Hello
-            </p>
-        </div>
+        <div className={`${styles.App} app`}>
+            <Navigation></Navigation>
+            <HeroSection /></div>
     );
 }
 

@@ -8,4 +8,32 @@
     border-radius: 50%;
     overflow: hidden;
     border: 4px double #FFFFFF;
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.HeroIntro {
+    margin-top: 50px;
+}
+
+.HeroIntroName {
+    background-image: linear-gradient(90deg, #b16cea 0%, #ff7b5d 100%);
+    // background-color: transparent;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.HeroIntroText {
+    color: #FFFFFF;
+    font-family: Bai Jamjuree;
+    font-weight: 700;
+    font-size: 3em;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
 }
