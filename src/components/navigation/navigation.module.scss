@@ -1,9 +1,9 @@
 .root {
     min-width: 100vh;
     min-height: auto;
+    background-color: #161513;
 }
 
-.navWrapper {}
 
 .navWrapper {
     display: flex;
@@ -12,15 +12,58 @@
     margin-left: auto;
     justify-content: space-between;
     align-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .logoWrapper {
     padding: 0px;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-right: 30px;
 }
 
-.navLinkWrapper {}
 
 .logoSrc {
     width: 60px;
     height: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.navLinkItems {
+    flex-grow: 1;
+}
+
+.navCTA {}
+
+.navLinkItem {
+    padding: 7px 12px;
+    direction: ltr;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.navCTAButton {
+    padding: 8px 15px;
+    background-color: #FFFFFF;
+    text-decoration-line: none;
+    color: #1d1c1a;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.NavLogoText {
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
 }
