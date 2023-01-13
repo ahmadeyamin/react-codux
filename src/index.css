@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600&family=Lato:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700;800;900&family=Lato:wght@300;400;500;700;800;900&display=swap');
 
 body {
     margin: 0;
@@ -23,4 +23,33 @@ code {
 .container {
     max-width: 1280px;
     padding: 0px 20px;
+    margin: auto;
+}
+
+.text-white {
+    color: white
+}
+
+.btn {
+    padding: 17px 30px;
+    background-color: #FFFFFF;
+    text-decoration-line: none;
+    color: #1d1c1a;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 35px;
+    font-family: Lato;
+}
+
+.btn.outline {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: .3s ease-in-out;
+}
+
+.btn.outline:hover {
+    background-color: #fff;
+    color: #161513;
+    border: none;
 }
