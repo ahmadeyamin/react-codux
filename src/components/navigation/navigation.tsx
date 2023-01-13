@@ -5,7 +5,8 @@ export interface NavigationProps {
 }
 
 export const Navigation = ({ className }: NavigationProps) => {
-    return <div className={`${styles.root} ${className} container`}>
+    return (
+    <div className={`${styles.root} ${className} container`}>
         <div className={styles.navWrapper}>
             <div className={styles.logoWrapper}>
                 <h3 className={styles.NavLogoText}>Eyamin</h3>
@@ -20,6 +21,9 @@ export const Navigation = ({ className }: NavigationProps) => {
                 </div>
                 <div className={styles.navCTA}>
                     <a href="/" className={styles.navCTAButton}>Lets's Talk</a>
-                </div></div></div>
-    </div>;
+                </div>
+            </div>
+        </div>
+    </div>
+    );
 };

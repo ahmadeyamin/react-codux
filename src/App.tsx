@@ -6,8 +6,9 @@ import { HeroSection } from './components/home/hero-section/hero-section';
 function App() {
     return (
         <div className={`${styles.App} app`}>
-            <Navigation></Navigation>
-            <HeroSection /></div>
+            <Navigation />
+            <HeroSection />
+        </div>
     );
 }
 
