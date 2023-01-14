@@ -20,6 +20,20 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
                 <a href="/" className="btn">Get In Touch</a>
                 <a href="/" className="btn outline">View All Works</a>
             </div>
-        </div>
+            <div className={styles.HeroRipple}>
+                <div className={styles.heroRippleBG} />
+                <div className={styles.rippleOverflow}>
+                    <div className={styles.heroRippleText}>
+                        <ul className={styles.HeroRippleTexts}>
+                            <li className={styles.HeroRippleItem}>Webflow</li>
+                            <li className={styles.HeroRippleItem}>Tailwind CSS</li>
+                            <li className={styles.HeroRippleItem}>JavaScript</li>
+                            <li className={styles.HeroRippleItem}>React JS</li>
+                            <li className={styles.HeroRippleItem}>Design</li>
+                            <li className={styles.HeroRippleItem}>Develop</li>
+                            <li className={styles.HeroRippleItem}>Discover</li>
+                        </ul>
+                    </div>
+                </div></div></div>
     </div>;
 };

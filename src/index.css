@@ -15,7 +15,9 @@ code {
     width: 100%;
     height: auto;
 }
-
+#board-canvas{
+    width: 100% !important;
+}
 .app {
     background-color: #161513;
 }

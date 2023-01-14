@@ -6,6 +6,7 @@ export default createBoard({
     Board: () => <HeroSection />,
     environmentProps: {
         windowBackgroundColor: '#161513',
+        canvasWidth: 1056,
         windowWidth: 1920,
         windowHeight: 1080
     }

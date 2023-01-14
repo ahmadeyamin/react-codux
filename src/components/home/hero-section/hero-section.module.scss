@@ -57,3 +57,55 @@
     justify-content: center;
     gap: 15px;
 }
+
+.HeroRipple {
+    margin-top: 50px;
+    position: relative;
+    // overflow-y: hidden;
+}
+
+.heroRippleBG {
+    height: 70px;
+    background-image: linear-gradient(90deg, #9971ea 0%, #ffa74b 100%);
+    background-color: transparent;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    margin-left: -5%;
+}
+
+.heroRippleText {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFFFFF;
+    transform: rotate(-3deg);
+    height: 80px;
+    width: 110%;
+    margin-left: -2%;
+}
+
+.HeroRippleTexts {
+    display: flex;
+    list-style-position: unset;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    padding: 5px 0px;
+}
+
+.HeroRippleItem {
+    width: 120vw;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.rippleOverflow {
+    height: 120px;
+    overflow: hidden;
+}
