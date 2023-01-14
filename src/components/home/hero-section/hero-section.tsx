@@ -8,7 +8,7 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
     return <div className={`${styles.root} ${className}`}>
         <div className={styles.HeroWrapper}>
             <div className={styles.DevAvatar}>
-                <img src="https://www.upwork.com/profile-portraits/c1LCszibyBDMuLzQ4LQtMTdd6lp6O24_5jVC7TVAASp_Mn_LkcgiZAO4owJ9QysI3S" className="img" />
+                <img src={require("../../../assets/dev.jpg")} className="img" />
             </div>
             <div className={styles.HeroIntro}>
                 <h2 className={styles.HeroIntroText}>
