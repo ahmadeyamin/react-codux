@@ -3,5 +3,8 @@ import { CategorySection } from '../../../../components/home/category-section/ca
 
 export default createBoard({
     name: 'CategorySection',
-    Board: () => <CategorySection />
+    Board: () => <CategorySection />,
+    environmentProps: {
+        windowWidth: 1024,
+    },
 });

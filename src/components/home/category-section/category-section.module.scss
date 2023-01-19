@@ -1,56 +1,118 @@
 .root {
-    background-color: #1c1c22;
+  background-color: #1c1c22;
 }
 
-.CatWrapper {}
+.CatWrapper {
+}
 
 .CatTitle {
-    width: 60%;
+  width: 60%;
 }
 
 .CatLinks {
-    width: 40%;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    flex-direction: row;
-    gap: 20px;
-    margin-bottom: 25px;
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 35px;
 }
 
 .CatHeader {
-    display: flex;
+  display: flex;
+  flex-direction: row;
 }
 
 .CatTitleText {
-    font-size: 2em;
-    line-height: 1em;
-    font-family: Bai Jamjuree;
+  font-size: 2.5em;
+  line-height: 1em;
+  font-family: Bai Jamjuree;
 }
 
 .CatTextStyle {
-    display: block;
+  display: block;
 }
 
 .emptyLine {
-    height: 2px;
-    width: 70px;
-    display: inline-block;
-    background-color: #FFFFFF;
-    margin-bottom: 15px;
-    margin-right: 5px;
-    margin-left: 50px;
+  height: 2px;
+  width: 70px;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 50px;
 }
 
 .colorText {
-    background-image: linear-gradient(90deg, #b16cea 0%, #ff7b5d 100%);
-    // background-color: transparent;
-    background-position: 0% 0%;
-    background-size: 100% 100%;
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-family: Bai Jamjuree;
-    font-weight: 900;
+  background-image: linear-gradient(90deg, #b16cea 0%, #ff7b5d 100%);
+  // background-color: transparent;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: Bai Jamjuree;
+  font-weight: 900;
+}
+.CatBody {
+}
+.CatBodyList {
+}
+
+.CatItem {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+  padding-right: 20px;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #1c1c22 10%, #b06ce9 10%, #ff7261 70%, #ffa64c 100%);
+  background-color: transparent;
+  background-position: 0%;
+  background-size: 1000%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  position: relative;
+}
+.CatItem:hover {
+  // background-position: 100%;
+  // background-size: 115%;
+  background-position: 100%;
+  background-size: 111%;
+}
+.catBodyItemIcon {
+  width: 50px;
+  height: 50px;
+}
+.CatItemTitle {
+  font-family: Bai Jamjuree;
+  font-size: 2em;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.CatImg {
+  position: absolute;
+  left: 40%;
+  width: 200px;
+  height: 300px;
+  border-radius: 13pxcov;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  transition-property: visibility;
+  opacity: 0%;
+  //   border: 1px solid #fff;
+  z-index: 10;
+  object-fit: cover;
+  border-radius: 9px;
+}
+.CatItem:hover .CatImg {
+  visibility: visible;
+  opacity: 100%;
 }
