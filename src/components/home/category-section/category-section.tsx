@@ -15,7 +15,7 @@ export const CategorySection = ({ className }: CategorySectionProps) => {
         // e.target.style.background = 'red';
         console.log(e);
         // imgX.
-        setImgX(e.screenX - 700);
+        setImgX(e.clientX / 3);
         // setImgY(e.screenY)
         // setState
         // console.log(e.children.);
