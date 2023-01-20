@@ -7,18 +7,11 @@ export interface CategorySectionProps {
 
 export const CategorySection = ({ className }: CategorySectionProps) => {
     const [imgX, setImgX] = useState(0);
-    const [imgY, setImgY] = useState(0);
 
     useEffect(() => {}, []);
 
     function mouseOverAnimation(e: any) {
-        // e.target.style.background = 'red';
-        console.log(e);
-        // imgX.
-        setImgX(e.clientX / 3);
-        // setImgY(e.screenY)
-        // setState
-        // console.log(e.children.);
+        setImgX(e.clientX / 4);
     }
 
     return (
@@ -54,10 +47,10 @@ export const CategorySection = ({ className }: CategorySectionProps) => {
                         >
                             <h3 className={styles.CatItemTitle}>Webflow</h3>
                             <img
-                                src="https://placekitten.com/640/360"
+                                src="https://assets-global.website-files.com/583347ca8f6c7ee058111b3b/5952995a3d8aa14fb62fe053_og%20image.png"
                                 className={styles.CatImg}
                                 style={{
-                                    transform: `translateX(${imgX}px) translateY(${imgY}px)`,
+                                    transform: `translateX(${imgX}px)`,
                                 }}
                             />
                             <a href="/" className="text-white">
@@ -83,10 +76,10 @@ export const CategorySection = ({ className }: CategorySectionProps) => {
                         >
                             <h3 className={styles.CatItemTitle}>Web Design</h3>
                             <img
-                                src="https://loremflickr.com/640/360"
+                                src="https://img.freepik.com/premium-vector/xtreme-colorful-illustration-man-gamer-manager-distant-remote-work-internet-marketer-designer-freelancer-sits-computer-cyber-power-fluid-telework-web-design-business_191130-20.jpg?w=2000"
                                 className={styles.CatImg}
                                 style={{
-                                    transform: `translateX(${imgX}px) translateY(${imgY}px)`,
+                                    transform: `translateX(${imgX}px)`,
                                 }}
                             />
                             <a href="/" className="text-white">
@@ -112,10 +105,10 @@ export const CategorySection = ({ className }: CategorySectionProps) => {
                         >
                             <h3 className={styles.CatItemTitle}>Web Development</h3>
                             <img
-                                src="https://picsum.photos/200/300"
+                                src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-1793920-1519784.png"
                                 className={styles.CatImg}
                                 style={{
-                                    transform: `translateX(${imgX}px) translateY(${imgY}px)`,
+                                    transform: `translateX(${imgX}px)`,
                                 }}
                             />
                             <a href="/" className="text-white">
@@ -141,10 +134,10 @@ export const CategorySection = ({ className }: CategorySectionProps) => {
                         >
                             <h3 className={styles.CatItemTitle}>Android App</h3>
                             <img
-                                src="https://baconmockup.com/640/360"
+                                src="https://applover.com/wp-content/uploads/2020/09/Featured-image-%E2%80%93-920x415_-Whats-the-cost-to-develop-an-Android-mobile-app.svg"
                                 className={styles.CatImg}
                                 style={{
-                                    transform: `translateX(${imgX}px) translateY(${imgY}px)`,
+                                    transform: `translateX(${imgX}px)`,
                                 }}
                             />
                             <a href="/" className="text-white">
