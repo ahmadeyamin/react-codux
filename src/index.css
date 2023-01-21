@@ -1,67 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700;800;900&family=Lato:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-    margin: 0;
-    font-family: -apple-system, Lato, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, Lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #board-canvas {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 .app {
-    background-color: #161513;
+  background-color: #161513;
 }
 
 .container {
-    max-width: 1280px;
-    padding: 0px 20px;
-    margin: auto;
+  max-width: 1280px;
+  padding: 0px 20px;
+  margin: auto;
 }
 
 .text-white {
-    color: white
+  color: white;
+  text-decoration: none;
 }
 
 .btn {
-    padding: 15px 30px;
-    background-color: #FFFFFF;
-    text-decoration-line: none;
-    color: #1d1c1a;
-    text-transform: uppercase;
-    font-weight: 500;
-    border-radius: 35px;
-    font-family: Lato;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  text-decoration-line: none;
+  color: #1d1c1a;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 35px;
+  font-family: Lato;
 }
 
 .btn.outline {
-    background-color: transparent;
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    transition: .3s ease-in-out;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: 0.3s ease-in-out;
 }
 
 .btn.outline:hover {
-    background-color: #fff;
-    color: #161513;
-    border: 1px solid transparent;
+  background-color: #fff;
+  color: #161513;
+  border: 1px solid transparent;
 }
 
 .bg-color {
-    background-image: linear-gradient(90deg, #b16cea 0%, #ff6b64 50%, #ffa34d 100%);
-    background-position: 0% 0%;
-    background-size: 100% 100%;
-    font-family: Bai Jamjuree;
-    color: #FFFFFF;
+  background-image: linear-gradient(90deg, #b16cea 0%, #ff6b64 50%, #ffa34d 100%);
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  font-family: Bai Jamjuree;
+  color: #ffffff;
+}
+.lato {
+  font-family: Lato;
 }

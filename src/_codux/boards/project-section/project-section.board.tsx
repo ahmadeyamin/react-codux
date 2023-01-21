@@ -3,5 +3,8 @@ import { ProjectSection } from '../../../components/home/project-section/project
 
 export default createBoard({
     name: 'ProjectSection',
-    Board: () => <ProjectSection />
+    Board: () => <ProjectSection />,
+    environmentProps: {
+        windowWidth: 1100,
+    },
 });

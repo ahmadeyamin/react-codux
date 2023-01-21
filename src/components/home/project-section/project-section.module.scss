@@ -45,6 +45,34 @@
   flex-direction: row;
   justify-items: stretch;
   align-content: space-around;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
+  margin-bottom: 40px;
+}
+.projectHeadLeft {
+  width: 50%;
+}
+.projectHeadRight {
+  width: 50%;
+  margin-bottom: 22px;
+  padding-left: 40px;
+}
+.ProjectList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5em 4%;
+}
+.ProjectItem {
+  width: 48%;
+  background-color: #1c1c22;
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration-line: none;
+}
+.ProjectItemImg {
+  width: 100%;
+  object-fit: fit;
+}
+.ProjectItemText {
+  padding: 20px;
 }
