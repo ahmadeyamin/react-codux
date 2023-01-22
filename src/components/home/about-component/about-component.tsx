@@ -50,6 +50,34 @@ export const AboutComponent = ({ className }: AboutComponentProps) => {
                         </div>
                     </div>
                 </div>
+                <div className={styles.AboutFeatured}>
+                    <div className={styles.AboutFeaturedBox1}>
+                        <img
+                            src="https://cdn.dribbble.com/userupload/4361536/file/original-ec02c91de4d997bdac711ce9973b33e7.jpg"
+                            className={styles.AboutFeaturedImg}
+                        />
+                    </div>
+                    <div className={styles.AboutFeaturedBox2}>
+                        <img
+                            src="https://cdn.dribbble.com/users/10317475/screenshots/20441640/media/686cefea1668c6df8655e09212dd7340.jpg"
+                            className={styles.AboutFeaturedImg}
+                        />
+                    </div>
+                    <div className={styles.AboutFeaturedBoxSub}>
+                        <div className={styles.AboutFeaturedImgSmallBox}>
+                            <img
+                                src="https://cdn.dribbble.com/userupload/4361467/file/original-cf4d39170bc4117af440765fd8a6be27.webp"
+                                className={styles.AboutFeaturedImgSmall}
+                            />
+                        </div>
+                        <div className={styles.AboutFeaturedImgSmallBox}>
+                            <img
+                                src="https://cdn.dribbble.com/userupload/4358949/file/original-4f2e87852deeaf2bea732c0212796dca.jpg"
+                                className={`${styles.AboutFeaturedImgSmall} ${styles.AboutFeaturedImgSmall}`}
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
