@@ -1,72 +1,71 @@
 .root {
-    min-width: 100vh;
-    min-height: auto;
-    background-color: #161513;
+  min-width: 100vh;
+  min-height: auto;
+  background-color: #161513;
 }
 
-
 .navWrapper {
-    display: flex;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .logoWrapper {
-    padding: 0px;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    margin-right: 30px;
+  padding: 0px;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  margin-right: 30px;
 }
 
-
 .logoSrc {
-    width: 60px;
-    height: 60px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+  width: 60px;
+  height: 60px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .navLinks {
-    display: flex;
-    align-items: stretch;
-    flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
 }
 
 .navLinkItems {
-    flex-grow: 1;
-    text-align: start;
+  flex-grow: 1;
+  text-align: start;
 }
 
-.navCTA {}
+.navCTA {
+}
 
 .navLinkItem {
-    padding: 7px 12px;
-    direction: ltr;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    font-weight: 400;
-    color: #FFFFFF;
+  padding: 7px 12px;
+  direction: ltr;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .navCTAButton {
-    padding: 8px 15px;
-    background-color: #FFFFFF;
-    text-decoration-line: none;
-    color: #1d1c1a;
-    text-transform: uppercase;
-    font-weight: 500;
-    border-radius: 20px;
+  padding: 8px 15px;
+  background-color: #ffffff;
+  text-decoration-line: none;
+  color: #1d1c1a;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 20px;
 }
 
 .NavLogoText {
-    color: #FFFFFF;
-    font-family: Bai Jamjuree;
-    font-size: 1.8em;
-    font-weight: 700;
+  color: #ffffff;
+  font-family: Bai Jamjuree;
+  font-size: 1.8em;
+  font-weight: 700;
 }
